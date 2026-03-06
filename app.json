@@ -1,0 +1,41 @@
+{
+  "expo": {
+    "name": "CybeLink-5",
+    "slug": "market-cap-link5",
+    "scheme": "market-cap-link5",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/icon.png",
+    "userInterfaceStyle": "dark",
+    "statusBar": {
+      "hidden": true,
+      "translucent": true
+    },
+    "splash": {
+      "image": "./assets/splash.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#050505" 
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "ios": {
+      "supportsTablet": true,
+      "bundleIdentifier": "com.crypto.link5"
+    },
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/adaptive-icon.png",
+        "backgroundColor": "#050505"
+      },
+      "package": "com.crypto.link5",
+      "permissions": [
+        "INTERNET",
+        "VIBRATE"
+      ]
+    },
+    "plugins": [
+      "expo-font"
+    ]
+  }
+}

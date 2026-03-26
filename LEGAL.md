@@ -1,7 +1,3 @@
-Here is the English translation of your revised Legal Compliance & Ownership Declaration for CybeLink-5.
-
-I have incorporated your latest requirements, including the inclusion of both $SOL and $SKR tokens, and the support for 8 languages as per your updated instructions.
-
 Legal Compliance & Ownership Declaration (CybeLink-5)
 1. Ownership Disclosure
 The CybeLink-5 dApp, its source code, and associated graphical assets (including cyberpunk-themed AI vs. Human artwork) are owned and maintained by the CybeLink-5 Development Team. This repository serves as the official and sole source of truth for the application's AI Gomoku logic and blockchain integration.

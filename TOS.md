@@ -1,8 +1,6 @@
 # Terms of Service for CybeLink-5
 Effective Date: April 7, 2026
 
-Version: 1.0.3 (Build 4)
-
 Welcome to CybeLink-5. This document constitutes a legally binding agreement between you ("User") and the developers of CybeLink-5. By accessing, downloading, or using the CybeLink-5 mobile application, you acknowledge that you have read, understood, and agreed to be bound by these Terms of Service.
 
 1. SCOPE OF SERVICES

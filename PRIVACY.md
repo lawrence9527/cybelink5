@@ -1,5 +1,5 @@
 CybeLink-5: Terms of Service & Privacy Policy
-Effective Date: April 7, 2026
+Effective Date: April 15, 2026
 
 1. DECENTRALIZED & NON-CUSTODIAL ARCHITECTURE
 CybeLink-5 is a decentralized application (dApp) built on the Solana Blockchain.

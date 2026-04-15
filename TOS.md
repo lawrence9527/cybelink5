@@ -1,5 +1,5 @@
 # Terms of Service for CybeLink-5
-Last Updated:: April 15, 2026
+Last Updated: April 15, 2026
 
 Welcome to CybeLink-5. This document constitutes a legally binding agreement between you ("User") and the developers of CybeLink-5. By accessing, downloading, or using the CybeLink-5 mobile application, you acknowledge that you have read, understood, and agreed to be bound by these Terms of Service.
 

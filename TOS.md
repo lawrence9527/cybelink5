@@ -59,7 +59,7 @@ Technical failures, congestion, or downtime of the Solana network or third-party
 Unauthorized access to your device or wallet by third parties.
 
 8. MODIFICATIONS & TERMINATION
-We reserve the right to modify the service or these Terms at any time. Your continued use of Cybeklink-5 and subsequent versions constitutes acceptance of the revised Terms. We may terminate access immediately if you breach any part of these Terms.
+We reserve the right to modify the service or these Terms at any time. Your continued use of Cybelink-5 and subsequent versions constitutes acceptance of the revised Terms. We may terminate access immediately if you breach any part of these Terms.
 
 9. GOVERNING LAW
 These Terms shall be governed by and construed in accordance with international digital commerce standards and the laws of the developer's registered jurisdiction.

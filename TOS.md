@@ -4,7 +4,7 @@ Effective Date: April 7, 2026
 Welcome to CybeLink-5. This document constitutes a legally binding agreement between you ("User") and the developers of CybeLink-5. By accessing, downloading, or using the CybeLink-5 mobile application, you acknowledge that you have read, understood, and agreed to be bound by these Terms of Service.
 
 1. SCOPE OF SERVICES
-CybeLink-5 provides a mobile interface for interacting with the Solana blockchain ecosystem, including but not limited to wallet integration, decentralized application (DApp) browsing, and real-time market data monitoring (powered by skr1024 v1.0 stable).
+CybeLink-5 provides a mobile interface for interacting with the Solana blockchain ecosystem, including but not limited to wallet integration, decentralized application (DApp) browsing, and real-time market data monitoring.
 
 2. USER REPRESENTATIONS & WARRANTIES
 By using the application, you represent and warrant that:
@@ -59,7 +59,7 @@ Technical failures, congestion, or downtime of the Solana network or third-party
 Unauthorized access to your device or wallet by third parties.
 
 8. MODIFICATIONS & TERMINATION
-We reserve the right to modify the service or these Terms at any time. Your continued use of Build 4 and subsequent versions constitutes acceptance of the revised Terms. We may terminate access immediately if you breach any part of these Terms.
+We reserve the right to modify the service or these Terms at any time. Your continued use of Cybeklink-5 and subsequent versions constitutes acceptance of the revised Terms. We may terminate access immediately if you breach any part of these Terms.
 
 9. GOVERNING LAW
 These Terms shall be governed by and construed in accordance with international digital commerce standards and the laws of the developer's registered jurisdiction.

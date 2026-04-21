@@ -8,175 +8,135 @@
         :root {
             --neon-blue: #00d2ff;
             --neon-purple: #9d50bb;
-            --overlay-color: rgba(10, 10, 15, 0.85);
+            --overlay: rgba(10, 10, 15, 0.85); /* 深色遮罩，确保文字清晰 */
         }
 
         body, html {
             margin: 0;
             padding: 0;
             height: 100%;
-            width: 100%;
-            font-family: 'Segoe UI', Roboto, -apple-system, sans-serif;
-            background-color: #050505;
+            font-family: 'Segoe UI', Roboto, sans-serif;
             color: #ffffff;
-            overflow: hidden;
+            overflow: hidden; /* 防止背景滚动 */
         }
 
         /* 全屏背景图层 */
-        .bg-image {
+        .background-container {
             position: fixed;
             top: 0;
             left: 0;
             width: 100%;
             height: 100%;
-            /* 确保指向你仓库中的图片名 */
-            background: url('bg.png') no-repeat center center;
+            /* 引用你上传到仓库的 bg.jpg */
+            background: url('bg.jpg') no-repeat center center;
             background-size: cover;
             z-index: -2;
         }
 
-        /* 动态渐变遮罩 */
-        .bg-overlay {
+        /* 半透明遮罩层：增加赛博朋克深色质感 */
+        .overlay {
             position: fixed;
             top: 0;
             left: 0;
             width: 100%;
             height: 100%;
-            background: radial-gradient(circle at center, transparent 10%, var(--overlay-color) 90%),
-                        linear-gradient(180deg, rgba(0,0,0,0.2) 0%, var(--overlay-color) 100%);
+            background: radial-gradient(circle at center, transparent 20%, var(--overlay) 80%),
+                        linear-gradient(0deg, var(--overlay) 0%, rgba(10, 10, 15, 0.4) 100%);
             z-index: -1;
         }
 
-        /* 主体布局 */
-        .wrapper {
+        .main-content {
             display: flex;
             justify-content: center;
             align-items: center;
             height: 100vh;
-            padding: 20px;
-            box-sizing: border-box;
         }
 
-        .portal-card {
-            max-width: 500px;
-            width: 100%;
+        .container {
+            max-width: 550px;
+            width: 85%;
             padding: 40px;
-            background: rgba(255, 255, 255, 0.05);
-            border: 1px solid rgba(0, 210, 255, 0.3);
-            border-radius: 24px;
-            backdrop-filter: blur(12px);
-            -webkit-backdrop-filter: blur(12px);
+            background: rgba(20, 20, 25, 0.7);
+            border: 1px solid rgba(0, 210, 255, 0.4);
+            border-radius: 20px;
+            backdrop-filter: blur(8px); /* 磨砂玻璃效果 */
             text-align: center;
-            box-shadow: 0 20px 50px rgba(0, 0, 0, 0.5);
+            box-shadow: 0 0 40px rgba(0, 0, 0, 0.8);
         }
 
         h1 {
-            font-size: 2.2rem;
-            margin: 0 0 10px 0;
-            background: linear-gradient(135deg, var(--neon-blue), var(--neon-purple));
+            font-size: 2.5em;
+            margin: 0;
+            background: linear-gradient(to right, var(--neon-blue), var(--neon-purple));
             -webkit-background-clip: text;
             -webkit-text-fill-color: transparent;
             text-transform: uppercase;
-            letter-spacing: 4px;
-            font-weight: 800;
+            letter-spacing: 3px;
         }
 
         .tagline {
-            color: #8b949e;
-            font-size: 0.85rem;
+            color: #aaa;
+            margin: 10px 0 30px 0;
+            font-size: 1em;
             text-transform: uppercase;
-            letter-spacing: 2px;
-            margin-bottom: 20px;
-        }
-
-        .features {
-            display: flex;
-            justify-content: center;
-            gap: 15px;
-            margin-bottom: 25px;
-            font-size: 0.7rem;
-            color: var(--neon-blue);
-            font-weight: bold;
-        }
-
-        .description-box {
-            text-align: left;
-            background: rgba(0,0,0,0.4);
-            padding: 15px;
-            border-radius: 8px;
-            font-size: 0.85rem;
-            line-height: 1.5;
-            color: #bbb;
-            border-left: 3px solid var(--neon-purple);
-            margin-bottom: 25px;
         }
 
         .nav-grid {
             display: grid;
             grid-template-columns: 1fr 1fr;
-            gap: 12px;
+            gap: 15px;
         }
 
         .btn {
-            padding: 12px 5px;
-            border: 1px solid rgba(255, 255, 255, 0.1);
-            background: rgba(255, 255, 255, 0.07);
-            color: #ffffff;
+            padding: 14px;
+            border: 1px solid rgba(255, 255, 255, 0.15);
+            background: rgba(255, 255, 255, 0.05);
+            color: #eee;
             text-decoration: none;
             border-radius: 8px;
-            font-size: 0.75rem;
+            font-size: 0.85em;
             font-weight: 600;
-            transition: all 0.3s ease;
+            transition: 0.3s;
             text-transform: uppercase;
         }
 
         .btn:hover {
             border-color: var(--neon-blue);
             background: rgba(0, 210, 255, 0.15);
-            box-shadow: 0 0 15px rgba(0, 210, 255, 0.3);
+            box-shadow: 0 0 15px rgba(0, 210, 255, 0.4);
             transform: translateY(-2px);
         }
 
-        .footer-info {
+        .info-box {
             margin-top: 30px;
-            padding-top: 20px;
+            font-size: 0.85em;
+            color: #888;
             border-top: 1px solid rgba(255, 255, 255, 0.1);
-            font-size: 0.75rem;
-            color: #666;
+            padding-top: 20px;
         }
 
-        .highlight { color: var(--neon-blue); font-weight: bold; }
+        .highlight { color: var(--neon-blue); }
     </style>
 </head>
 <body>
 
-    <div class="bg-image"></div>
-    <div class="bg-overlay"></div>
+    <div class="background-container"></div>
+    <div class="overlay"></div>
 
-    <div class="wrapper">
-        <div class="portal-card">
+    <div class="main-content">
+        <div class="container">
             <h1>CybeLink-5</h1>
-            <p class="tagline">The Next-Gen AI Gomoku Protocol</p>
-
-            <div class="features">
-                <span>● SOLANA DAPP</span>
-                <span>● AI STRATEGY</span>
-                <span>● MULTI-LANG</span>
-            </div>
-
-            <div class="description-box">
-                CybeLink-5 integrates advanced AI logic with the <span class="highlight">Solana Blockchain</span> to provide a secure, transparent, and non-custodial gaming experience. Official developer portal for compliance and support.
-            </div>
+            <p class="tagline">Official Developer Portal</p>
 
             <div class="nav-grid">
                 <a href="LEGAL" class="btn">Legal Declaration</a>
-                <a href="TOS" class="btn">Terms of Service</a>
+                <a href="TOS" class="btn">Terms of Service (TOS)</a>
                 <a href="PRIVACY" class="btn">Privacy Policy</a>
-                <a href="EULA" class="btn">User License (EULA)</a>
+                <a href="EULA" class="btn">License (EULA)</a>
             </div>
 
-            <div class="footer-info">
-                <p>© 2026 CybeLink-5 Development Team</p>
+            <div class="info-box">
+                <p>Advanced AI Gomoku on <span class="highlight">Solana Blockchain</span></p>
                 <p>Support: 1148965663@qq.com</p>
             </div>
         </div>
